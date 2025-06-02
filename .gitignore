@@ -1,4 +1,11 @@
 .venv
+.env
+
+evm.txt
+proxies.txt
+rpc.txt
+test_evm.txt
+
 __pycache__
 
 poetry.lock
