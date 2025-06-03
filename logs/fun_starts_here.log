@@ -1,0 +1,790 @@
+2025-06-03T10:52:09.506246+0300 WARNING 0xe046f16c1aaf45A673bB3DD07935dA1428304379 not found in evm.txt. Skipping.
+2025-06-03T10:52:14.561010+0300 WARNING 0x166f2df050AC392309CA85955647C5A1B89521aE not found in evm.txt. Skipping.
+2025-06-03T10:52:20.884722+0300 WARNING 0x0eB26066EefBce1fF5e822Bb4F225a38Ba040ab8 not found in evm.txt. Skipping.
+2025-06-03T10:52:25.344711+0300 WARNING 0x02B4376cd11714A2FEF63c1cF4DA09FAD7EDf169 not found in evm.txt. Skipping.
+2025-06-03T10:52:29.433948+0300 WARNING 0x939759996F1aC24BD6fd2EDB6490108EC2C61eD0 not found in evm.txt. Skipping.
+2025-06-03T10:52:33.277321+0300 WARNING 0x00caa30dc6aA4B1774D38246e12c1493F7A43Ba7 not found in evm.txt. Skipping.
+2025-06-03T10:52:37.468887+0300 WARNING 0xC2ef9099Cf40e5ad5Ad2bAFAB89856F0c86504d5 not found in evm.txt. Skipping.
+2025-06-03T10:53:12.994541+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: list index out of range
+2025-06-03T10:53:25.581566+0300 WARNING 0xf598527d0175F905f092d79e9dB55D01866f0aC7 not found in evm.txt. Skipping.
+2025-06-03T10:53:29.637246+0300 WARNING 0x6926a8818645Bc70274C83C9De767D79b23D5088 not found in evm.txt. Skipping.
+2025-06-03T10:53:31.879680+0300 INFO Execution completed.
+2025-06-03T10:57:00.988912+0300 WARNING 0x6926a8818645Bc70274C83C9De767D79b23D5088 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.989194+0300 WARNING 0xC2ef9099Cf40e5ad5Ad2bAFAB89856F0c86504d5 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.989415+0300 WARNING 0x0eB26066EefBce1fF5e822Bb4F225a38Ba040ab8 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.989584+0300 WARNING 0x02B4376cd11714A2FEF63c1cF4DA09FAD7EDf169 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.989757+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: list index out of range
+2025-06-03T10:57:00.989940+0300 WARNING 0x166f2df050AC392309CA85955647C5A1B89521aE not found in evm.txt. Skipping.
+2025-06-03T10:57:00.990108+0300 WARNING 0x939759996F1aC24BD6fd2EDB6490108EC2C61eD0 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.990276+0300 WARNING 0xe046f16c1aaf45A673bB3DD07935dA1428304379 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.990434+0300 WARNING 0x00caa30dc6aA4B1774D38246e12c1493F7A43Ba7 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.990611+0300 WARNING 0xf598527d0175F905f092d79e9dB55D01866f0aC7 not found in evm.txt. Skipping.
+2025-06-03T10:57:00.990914+0300 INFO Execution completed.
+2025-06-03T11:02:41.380944+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: list index out of range
+2025-06-03T11:02:41.381350+0300 INFO Execution completed.
+2025-06-03T11:04:25.530659+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: list index out of range
+2025-06-03T11:04:29.531179+0300 INFO Execution completed.
+2025-06-03T11:09:40.620331+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: list index out of range
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 104, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x705f2fcb0280>
+    │       └ <function run at 0x705f326696c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x705f2fca84a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x705f31d1e0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x705f31d1e050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x705f31d1fb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x705f3239b520>
+    └ <Handle <TaskStepMethWrapper object at 0x705f2fc7f2b0>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x705f2fc7f2b0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x705f2fc7f2b0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x705f2fc7f2b0>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 58, in process_transactions
+    proxy = proxy_lines[evm_lines.index(address)]
+            │           │         │     └ '0x655Ad748FeD9cC26525225750C6695b4E67cBfBa'
+            │           │         └ <method 'index' of 'list' objects>
+            │           └ ['0x655Ad748FeD9cC26525225750C6695b4E67cBfBa']
+            └ []
+
+IndexError: list index out of range
+2025-06-03T11:09:40.629062+0300 INFO Execution completed.
+2025-06-03T11:10:34.027873+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 104, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x70ec635bc310>
+    │       └ <function run at 0x70ec65f1d6c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x70ec635b44a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x70ec6560e0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x70ec6560e050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x70ec6560fb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x70ec6576b520>
+    └ <Handle <TaskStepMethWrapper object at 0x70ec6358b340>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x70ec6358b340>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x70ec6358b340>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x70ec6358b340>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 58, in process_transactions
+    proxy = proxy_lines[evm_lines.index(address)]
+            │           │         │     └ '0x655Ad748FeD9cC26525225750C6695b4E67cBfBa'
+            │           │         └ <method 'index' of 'list' objects>
+            │           └ ['0x655Ad748FeD9cC26525225750C6695b4E67cBfBa']
+            └ []
+
+IndexError: list index out of range
+2025-06-03T11:10:34.034106+0300 INFO Execution completed.
+2025-06-03T11:11:24.966248+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: list index out of range
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 104, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x7445104b43a0>
+    │       └ <function run at 0x744512ebd6c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x7445104ac4a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x74451261a0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x74451261a050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x74451261bb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x744512777520>
+    └ <Handle <TaskStepMethWrapper object at 0x744510483250>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x744510483250>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x744510483250>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x744510483250>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 58, in process_transactions
+    proxy = proxy_lines[evm_lines.index(address)]
+            │           │         │     └ '0x655Ad748FeD9cC26525225750C6695b4E67cBfBa'
+            │           │         └ <method 'index' of 'list' objects>
+            │           └ ['0x655Ad748FeD9cC26525225750C6695b4E67cBfBa']
+            └ []
+
+IndexError: list index out of range
+2025-06-03T11:11:24.972204+0300 INFO Execution completed.
+2025-06-03T11:13:38.469066+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: Proxy is enabled in settings, but no proxy_string was provided.
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x7051bb85ead0, file "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/lib...
+           └ <function _run_code at 0x7051bb84a050>
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x7051bb85ead0, file "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/lib...
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+    │   └ <function main at 0x7051ba693910>
+    └ <module 'debugpy.server.cli' from '/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/ad...
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 501, in main
+    run()
+    └ <function run_file at 0x7051ba6936d0>
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ '/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py'
+    │     └ <function run_path at 0x7051babd2680>
+    └ <module '_pydevd_bundle.pydevd_runpy' from '/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/d...
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+           │                │     │             │                  │                     └ '/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py'
+           │                │     │             │                  └ ''
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x7051ba5e7100, file "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 1>
+           └ <function _run_module_code at 0x7051babd2320>
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+    │         │     │            │             │         │         │         └ '/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py'
+    │         │     │            │             │         │         └ ''
+    │         │     │            │             │         └ None
+    │         │     │            │             └ '__main__'
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/home/igor/Do...
+    │         └ <code object <module> at 0x7051ba5e7100, file "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 1>
+    └ <function _run_code at 0x7051babd1f30>
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/home/igor/Do...
+         └ <code object <module> at 0x7051ba5e7100, file "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 1>
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 104, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x7051a98ab250>
+    │       └ <function run at 0x7051b84afc70>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x7051a9a2ab20>
+           │    └ <function BaseEventLoop.run_until_complete at 0x7051b84bd6c0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7051b84bd630>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7051b84bf130>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7051b8456440>
+    └ <Handle <TaskStepMethWrapper object at 0x7051a98ad570>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x7051a98ad570>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x7051a98ad570>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x7051a98ad570>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 60, in process_transactions
+    txm = TX_MANAGER(
+          └ <class 'core.tx_manager.TX_MANAGER'>
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/core/tx_manager.py", line 22, in __init__
+    raise ValueError("Proxy is enabled in settings, but no proxy_string was provided.")
+
+ValueError: Proxy is enabled in settings, but no proxy_string was provided.
+2025-06-03T11:13:38.495859+0300 INFO Execution completed.
+2025-06-03T11:15:04.396035+0300 INFO Transaction sent | 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa. 66fb3678caf6fa2bc19307b3604d3bb18aed17d2580533b23bf88c16f1a1a97b
+2025-06-03T11:15:25.755595+0300 INFO Confirmed: 66fb3678caf6fa2bc19307b3604d3bb18aed17d2580533b23bf88c16f1a1a97b
+2025-06-03T11:15:28.761232+0300 INFO Execution completed.
+2025-06-03T12:24:51.697996+0300 INFO 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa already processed. Skipping.
+2025-06-03T12:24:51.698916+0300 INFO Execution completed.
+2025-06-03T12:28:49.157785+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: Proxy is enabled in settings, but no proxy_string was provided.
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 105, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x7e960e7dc3a0>
+    │       └ <function run at 0x7e96111bd6c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x7e960e7d44a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x7e961091e0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7e961091e050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7e961091fb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7e9610eef520>
+    └ <Handle <TaskStepMethWrapper object at 0x7e960e7af0d0>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x7e960e7af0d0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x7e960e7af0d0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x7e960e7af0d0>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 60, in process_transactions
+    txm = TX_MANAGER(
+          └ <class 'core.tx_manager.TX_MANAGER'>
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/core/tx_manager.py", line 22, in __init__
+    raise ValueError("Proxy is enabled in settings, but no proxy_string was provided.")
+
+ValueError: Proxy is enabled in settings, but no proxy_string was provided.
+2025-06-03T12:28:49.163520+0300 INFO Execution completed.
+2025-06-03T12:32:27.921836+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: 'builtin_function_or_method' object is not subscriptable
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 105, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x7894c50b03a0>
+    │       └ <function run at 0x7894c7a496c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x7894c50a84a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x7894c711a0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7894c711a050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7894c711bb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7894c7777520>
+    └ <Handle <TaskStepMethWrapper object at 0x7894c507f130>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x7894c507f130>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x7894c507f130>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x7894c507f130>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 66, in process_transactions
+    address_for_data = address.lower[2:]
+                       │       └ <method 'lower' of 'str' objects>
+                       └ '0x655Ad748FeD9cC26525225750C6695b4E67cBfBa'
+
+TypeError: 'builtin_function_or_method' object is not subscriptable
+2025-06-03T12:32:27.927801+0300 INFO Execution completed.
+2025-06-03T12:33:05.273437+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: 'builtin_function_or_method' object is not subscriptable
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 105, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x733a2b1bc3a0>
+    │       └ <function run at 0x733a2dbfd6c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x733a2b1b04a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x733a2d31e0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x733a2d31e050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x733a2d31fb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x733a2d92f520>
+    └ <Handle <TaskStepMethWrapper object at 0x733a2b187220>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x733a2b187220>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x733a2b187220>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x733a2b187220>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 66, in process_transactions
+    address_for_data = address.lower[2:]
+                       │       └ <method 'lower' of 'str' objects>
+                       └ '0x655Ad748FeD9cC26525225750C6695b4E67cBfBa'
+
+TypeError: 'builtin_function_or_method' object is not subscriptable
+2025-06-03T12:33:05.299250+0300 INFO Execution completed.
+2025-06-03T12:34:15.363362+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: ('execution reverted: revert: !V', '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000022156000000000000000000000000000000000000000000000000000000000000')
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 105, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x7b45ca2b43a0>
+    │       └ <function run at 0x7b45ccc696c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x7b45ca2a84a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x7b45cc31e0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7b45cc31e050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7b45cc31fb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7b45cc99b520>
+    └ <Handle <TaskStepMethWrapper object at 0x7b45ca27f190>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x7b45ca27f190>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x7b45ca27f190>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x7b45ca27f190>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 83, in process_transactions
+    tx["gas"] = int(txm.w3.eth.estimate_gas(tx) * random.uniform(1.12, 1.15))
+    │               │   │  │   │            │     │      └ <bound method Random.uniform of <random.Random object at 0x5c557da97c00>>
+    │               │   │  │   │            │     └ <module 'random' from '/usr/lib/python3.10/random.py'>
+    │               │   │  │   │            └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+    │               │   │  │   └ <function Eth.estimate_gas at 0x7b45ca362cb0>
+    │               │   │  └ <web3.eth.eth.Eth object at 0x7b45ca2cce20>
+    │               │   └ <web3.main.Web3 object at 0x7b45ca2ccb20>
+    │               └ <core.tx_manager.TX_MANAGER object at 0x7b45ca27f250>
+    └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/eth/eth.py", line 317, in estimate_gas
+    return self._estimate_gas(transaction, block_identifier, state_override)
+           │    │             │            │                 └ None
+           │    │             │            └ None
+           │    │             └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+           │    └ <web3.method.Method object at 0x7b45ca374b50>
+           └ <web3.eth.eth.Eth object at 0x7b45ca2cce20>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/module.py", line 112, in caller
+    result = w3.manager.request_blocking(
+             │  │       └ <function RequestManager.request_blocking at 0x7b45ca3889d0>
+             │  └ <web3.manager.RequestManager object at 0x7b45ca2ccaf0>
+             └ <web3.main.Web3 object at 0x7b45ca2ccb20>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 232, in request_blocking
+    return self.formatted_response(
+           │    └ <function RequestManager.formatted_response at 0x7b45ca388940>
+           └ <web3.manager.RequestManager object at 0x7b45ca2ccaf0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 198, in formatted_response
+    validate_rpc_response_and_raise_if_error(
+    └ <function validate_rpc_response_and_raise_if_error at 0x7b45cae41900>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/validation.py", line 397, in validate_rpc_response_and_raise_if_error
+    response = apply_error_formatters(error_formatters, response)
+               │                      │                 └ {'error': {'code': 3, 'message': 'execution reverted: revert: !V', 'data': '0x08c379a0000000000000000000000000000000000000000...
+               │                      └ <function raise_contract_logic_error_on_revert at 0x7b45ca5b6560>
+               └ <function apply_error_formatters at 0x7b45cadee9e0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/formatters.py", line 146, in apply_error_formatters
+    formatted_resp = pipe(response, error_formatters)
+                     │    │         └ <function raise_contract_logic_error_on_revert at 0x7b45ca5b6560>
+                     │    └ {'error': {'code': 3, 'message': 'execution reverted: revert: !V', 'data': '0x08c379a0000000000000000000000000000000000000000...
+                     └ <cyfunction pipe at 0x7b45cbc01f20>
+  File "cytoolz/functoolz.pyx", line 685, in cytoolz.functoolz.pipe
+    return c_pipe(data, funcs)
+  File "cytoolz/functoolz.pyx", line 660, in cytoolz.functoolz.c_pipe
+    data = func(data)
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/error_formatters_utils.py", line 166, in raise_contract_logic_error_on_revert
+    raise ContractLogicError(message, data=data)
+          │                  │             └ '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000...
+          │                  └ 'execution reverted: revert: !V'
+          └ <class 'web3.exceptions.ContractLogicError'>
+
+web3.exceptions.ContractLogicError: ('execution reverted: revert: !V', '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000022156000000000000000000000000000000000000000000000000000000000000')
+2025-06-03T12:34:15.392001+0300 INFO Execution completed.
+2025-06-03T13:01:56.240604+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: ('execution reverted: revert: !V', '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000022156000000000000000000000000000000000000000000000000000000000000')
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x7738d71a2ad0, file "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/lib...
+           └ <function _run_code at 0x7738d718e050>
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x7738d71a2ad0, file "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/lib...
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+    │   └ <function main at 0x7738d5fd7910>
+    └ <module 'debugpy.server.cli' from '/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/ad...
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 501, in main
+    run()
+    └ <function run_file at 0x7738d5fd76d0>
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ '/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py'
+    │     └ <function run_path at 0x7738d6516680>
+    └ <module '_pydevd_bundle.pydevd_runpy' from '/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/d...
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+           │                │     │             │                  │                     └ '/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py'
+           │                │     │             │                  └ ''
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x7738d5f2b1b0, file "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 1>
+           └ <function _run_module_code at 0x7738d6516320>
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+    │         │     │            │             │         │         │         └ '/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py'
+    │         │     │            │             │         │         └ ''
+    │         │     │            │             │         └ None
+    │         │     │            │             └ '__main__'
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/home/igor/Do...
+    │         └ <code object <module> at 0x7738d5f2b1b0, file "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 1>
+    └ <function _run_code at 0x7738d6515f30>
+
+  File "/home/igor/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/home/igor/Do...
+         └ <code object <module> at 0x7738d5f2b1b0, file "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 1>
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 105, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x7738c4717370>
+    │       └ <function run at 0x7738d437fc70>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x7738c5342b20>
+           │    └ <function BaseEventLoop.run_until_complete at 0x7738d43896c0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7738d4389630>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7738d438b130>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7738d4322440>
+    └ <Handle <TaskStepMethWrapper object at 0x7738c471dae0>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x7738c471dae0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x7738c471dae0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x7738c471dae0>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 83, in process_transactions
+    tx["gas"] = int(txm.w3.eth.estimate_gas(tx) * random.uniform(1.12, 1.15))
+    │               │   │  │   │            │     │      └ <bound method Random.uniform of <random.Random object at 0x566d10a9b470>>
+    │               │   │  │   │            │     └ <module 'random' from '/usr/lib/python3.10/random.py'>
+    │               │   │  │   │            └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+    │               │   │  │   └ <function Eth.estimate_gas at 0x7738c5430940>
+    │               │   │  └ <web3.eth.eth.Eth object at 0x7738c471f2b0>
+    │               │   └ <web3.main.Web3 object at 0x7738c471f040>
+    │               └ <core.tx_manager.TX_MANAGER object at 0x7738c471ee00>
+    └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/eth/eth.py", line 317, in estimate_gas
+    return self._estimate_gas(transaction, block_identifier, state_override)
+           │    │             │            │                 └ None
+           │    │             │            └ None
+           │    │             └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+           │    └ <web3.method.Method object at 0x7738c542ac50>
+           └ <web3.eth.eth.Eth object at 0x7738c471f2b0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/module.py", line 112, in caller
+    result = w3.manager.request_blocking(
+             │  │       └ <function RequestManager.request_blocking at 0x7738c5432950>
+             │  └ <web3.manager.RequestManager object at 0x7738c471eef0>
+             └ <web3.main.Web3 object at 0x7738c471f040>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 232, in request_blocking
+    return self.formatted_response(
+           │    └ <function RequestManager.formatted_response at 0x7738c54328c0>
+           └ <web3.manager.RequestManager object at 0x7738c471eef0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 198, in formatted_response
+    validate_rpc_response_and_raise_if_error(
+    └ <function validate_rpc_response_and_raise_if_error at 0x7738c5e07eb0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/validation.py", line 397, in validate_rpc_response_and_raise_if_error
+    response = apply_error_formatters(error_formatters, response)
+               │                      │                 └ {'error': {'code': 3, 'message': 'execution reverted: revert: !V', 'data': '0x08c379a0000000000000000000000000000000000000000...
+               │                      └ <function raise_contract_logic_error_on_revert at 0x7738c5602830>
+               └ <function apply_error_formatters at 0x7738c5e04ee0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/formatters.py", line 146, in apply_error_formatters
+    formatted_resp = pipe(response, error_formatters)
+                     │    │         └ <function raise_contract_logic_error_on_revert at 0x7738c5602830>
+                     │    └ {'error': {'code': 3, 'message': 'execution reverted: revert: !V', 'data': '0x08c379a0000000000000000000000000000000000000000...
+                     └ <cyfunction pipe at 0x7738c6c6c040>
+  File "cytoolz/functoolz.pyx", line 685, in cytoolz.functoolz.pipe
+    return c_pipe(data, funcs)
+  File "cytoolz/functoolz.pyx", line 660, in cytoolz.functoolz.c_pipe
+    data = func(data)
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/error_formatters_utils.py", line 166, in raise_contract_logic_error_on_revert
+    raise ContractLogicError(message, data=data)
+          │                  │             └ '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000...
+          │                  └ 'execution reverted: revert: !V'
+          └ <class 'web3.exceptions.ContractLogicError'>
+
+web3.exceptions.ContractLogicError: ('execution reverted: revert: !V', '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000022156000000000000000000000000000000000000000000000000000000000000')
+2025-06-03T13:02:02.881916+0300 INFO Execution completed.
+2025-06-03T13:02:42.880297+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: ('execution reverted: revert: !V', '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000022156000000000000000000000000000000000000000000000000000000000000')
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 105, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x7fbfb718c310>
+    │       └ <function run at 0x7fbfb9b1d6c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x7fbfb71844a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x7fbfb920e0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x7fbfb920e050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7fbfb920fb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7fbfb936f520>
+    └ <Handle <TaskStepMethWrapper object at 0x7fbfb715b160>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x7fbfb715b160>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x7fbfb715b160>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x7fbfb715b160>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 83, in process_transactions
+    tx["gas"] = int(txm.w3.eth.estimate_gas(tx) * random.uniform(1.12, 1.15))
+    │               │   │  │   │            │     │      └ <bound method Random.uniform of <random.Random object at 0x61ee26835c00>>
+    │               │   │  │   │            │     └ <module 'random' from '/usr/lib/python3.10/random.py'>
+    │               │   │  │   │            └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+    │               │   │  │   └ <function Eth.estimate_gas at 0x7fbfb7242cb0>
+    │               │   │  └ <web3.eth.eth.Eth object at 0x7fbfb71a8dc0>
+    │               │   └ <web3.main.Web3 object at 0x7fbfb71a8a90>
+    │               └ <core.tx_manager.TX_MANAGER object at 0x7fbfb715b220>
+    └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/eth/eth.py", line 317, in estimate_gas
+    return self._estimate_gas(transaction, block_identifier, state_override)
+           │    │             │            │                 └ None
+           │    │             │            └ None
+           │    │             └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+           │    └ <web3.method.Method object at 0x7fbfb7250b20>
+           └ <web3.eth.eth.Eth object at 0x7fbfb71a8dc0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/module.py", line 112, in caller
+    result = w3.manager.request_blocking(
+             │  │       └ <function RequestManager.request_blocking at 0x7fbfb72649d0>
+             │  └ <web3.manager.RequestManager object at 0x7fbfb71a8580>
+             └ <web3.main.Web3 object at 0x7fbfb71a8a90>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 232, in request_blocking
+    return self.formatted_response(
+           │    └ <function RequestManager.formatted_response at 0x7fbfb7264940>
+           └ <web3.manager.RequestManager object at 0x7fbfb71a8580>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 198, in formatted_response
+    validate_rpc_response_and_raise_if_error(
+    └ <function validate_rpc_response_and_raise_if_error at 0x7fbfb7d51900>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/validation.py", line 397, in validate_rpc_response_and_raise_if_error
+    response = apply_error_formatters(error_formatters, response)
+               │                      │                 └ {'error': {'code': 3, 'message': 'execution reverted: revert: !V', 'data': '0x08c379a0000000000000000000000000000000000000000...
+               │                      └ <function raise_contract_logic_error_on_revert at 0x7fbfb7482560>
+               └ <function apply_error_formatters at 0x7fbfb7cfe9e0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/formatters.py", line 146, in apply_error_formatters
+    formatted_resp = pipe(response, error_formatters)
+                     │    │         └ <function raise_contract_logic_error_on_revert at 0x7fbfb7482560>
+                     │    └ {'error': {'code': 3, 'message': 'execution reverted: revert: !V', 'data': '0x08c379a0000000000000000000000000000000000000000...
+                     └ <cyfunction pipe at 0x7fbfb8d65f20>
+  File "cytoolz/functoolz.pyx", line 685, in cytoolz.functoolz.pipe
+    return c_pipe(data, funcs)
+  File "cytoolz/functoolz.pyx", line 660, in cytoolz.functoolz.c_pipe
+    data = func(data)
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/error_formatters_utils.py", line 166, in raise_contract_logic_error_on_revert
+    raise ContractLogicError(message, data=data)
+          │                  │             └ '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000...
+          │                  └ 'execution reverted: revert: !V'
+          └ <class 'web3.exceptions.ContractLogicError'>
+
+web3.exceptions.ContractLogicError: ('execution reverted: revert: !V', '0x08c379a0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000022156000000000000000000000000000000000000000000000000000000000000')
+2025-06-03T13:02:42.913011+0300 INFO Execution completed.
+2025-06-03T13:07:22.039093+0300 ERROR 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa: ('0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000000000027ca57357c000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000000000000000000000', '0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000000000027ca57357c000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000000000000000000000')
+Traceback (most recent call last):
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 105, in <module>
+    asyncio.run(process_transactions())
+    │       │   └ <function process_transactions at 0x79b0058b83a0>
+    │       └ <function run at 0x79b0082bd6c0>
+    └ <module 'asyncio' from '/usr/lib/python3.10/asyncio/__init__.py'>
+
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object process_transactions at 0x79b0058ac4a0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x79b007a1a0e0>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x79b007a1a050>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x79b007a1bb50>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x79b007b77520>
+    └ <Handle <TaskStepMethWrapper object at 0x79b0058831f0>()>
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x79b0058831f0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x79b0058831f0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x79b0058831f0>()>
+
+> File "/home/igor/Documents/1.Python_projects/Scryptoni/fun_starts_here.py", line 83, in process_transactions
+    tx["gas"] = int(txm.w3.eth.estimate_gas(tx) * random.uniform(1.12, 1.15))
+    │               │   │  │   │            │     │      └ <bound method Random.uniform of <random.Random object at 0x61c609a1ec00>>
+    │               │   │  │   │            │     └ <module 'random' from '/usr/lib/python3.10/random.py'>
+    │               │   │  │   │            └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+    │               │   │  │   └ <function Eth.estimate_gas at 0x79b00596acb0>
+    │               │   │  └ <web3.eth.eth.Eth object at 0x79b0058d0e50>
+    │               │   └ <web3.main.Web3 object at 0x79b0058d0b20>
+    │               └ <core.tx_manager.TX_MANAGER object at 0x79b0058832b0>
+    └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/eth/eth.py", line 317, in estimate_gas
+    return self._estimate_gas(transaction, block_identifier, state_override)
+           │    │             │            │                 └ None
+           │    │             │            └ None
+           │    │             └ {'chainId': 6342, 'data': '0x84bb1e42000000000000000000000000655ad748fed9cc26525225750c6695b4e67cbfba000000000000000000000000...
+           │    └ <web3.method.Method object at 0x79b00597cbb0>
+           └ <web3.eth.eth.Eth object at 0x79b0058d0e50>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/module.py", line 112, in caller
+    result = w3.manager.request_blocking(
+             │  │       └ <function RequestManager.request_blocking at 0x79b0059949d0>
+             │  └ <web3.manager.RequestManager object at 0x79b0058d0610>
+             └ <web3.main.Web3 object at 0x79b0058d0b20>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 232, in request_blocking
+    return self.formatted_response(
+           │    └ <function RequestManager.formatted_response at 0x79b005994940>
+           └ <web3.manager.RequestManager object at 0x79b0058d0610>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/manager.py", line 198, in formatted_response
+    validate_rpc_response_and_raise_if_error(
+    └ <function validate_rpc_response_and_raise_if_error at 0x79b0063cd900>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/validation.py", line 397, in validate_rpc_response_and_raise_if_error
+    response = apply_error_formatters(error_formatters, response)
+               │                      │                 └ {'error': {'code': 3, 'message': 'execution reverted', 'data': '0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeee...
+               │                      └ <function raise_contract_logic_error_on_revert at 0x79b005bb6560>
+               └ <function apply_error_formatters at 0x79b00637a9e0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/formatters.py", line 146, in apply_error_formatters
+    formatted_resp = pipe(response, error_formatters)
+                     │    │         └ <function raise_contract_logic_error_on_revert at 0x79b005bb6560>
+                     │    └ {'error': {'code': 3, 'message': 'execution reverted', 'data': '0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeee...
+                     └ <cyfunction pipe at 0x79b0074fdf20>
+  File "cytoolz/functoolz.pyx", line 685, in cytoolz.functoolz.pipe
+    return c_pipe(data, funcs)
+  File "cytoolz/functoolz.pyx", line 660, in cytoolz.functoolz.c_pipe
+    data = func(data)
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/error_formatters_utils.py", line 161, in raise_contract_logic_error_on_revert
+    _raise_contract_error(data)
+    │                     └ '0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000000000...
+    └ <function _raise_contract_error at 0x79b005bb64d0>
+  File "/home/igor/Documents/1.Python_projects/Scryptoni/.venv/lib/python3.10/site-packages/web3/_utils/error_formatters_utils.py", line 133, in _raise_contract_error
+    raise ContractCustomError(response_error_data, data=response_error_data)
+          │                   │                         └ '0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000000000...
+          │                   └ '0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000000000...
+          └ <class 'web3.exceptions.ContractCustomError'>
+
+web3.exceptions.ContractCustomError: ('0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000000000027ca57357c000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000000000000000000000', '0xf13474e9000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000000000000000000000000000000027ca57357c000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0000000000000000000000000000000000000000000000000000000000000000')
+2025-06-03T13:07:22.048400+0300 INFO Execution completed.
+2025-06-03T13:10:28.840528+0300 INFO Transaction sent | 0x655Ad748FeD9cC26525225750C6695b4E67cBfBa. 1125544595f670e3fb8c10737630965792bbb2225a547e8f0c0a8dbbd349592e
+2025-06-03T13:10:54.134877+0300 INFO Confirmed: 1125544595f670e3fb8c10737630965792bbb2225a547e8f0c0a8dbbd349592e
+2025-06-03T13:10:56.139841+0300 INFO Execution completed.

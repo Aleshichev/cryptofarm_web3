@@ -1,7 +1,7 @@
 import os
 import csv
 from cryptography.fernet import Fernet
-from settings import ENCRYPTED_FILE, KEY_PATH, SOURCE
+from core.settings import ENCRYPTED_FILE, KEY_PATH, SOURCE
 # import subprocess
 
 

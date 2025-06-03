@@ -1,9 +1,9 @@
 from cryptography.fernet import Fernet
 import os
 
-DATA_FILE = "wallets.csv"
-KEY_FILE = "secret.key"
-ENCRYPTED_FILE = "wallets.csv.enc"
+DATA_FILE = "./config/wallets.csv"
+KEY_FILE = "./config/secret.key"
+ENCRYPTED_FILE = "./config/wallets.csv.enc"
 
 
 def generate_key():
