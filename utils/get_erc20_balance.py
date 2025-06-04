@@ -35,7 +35,7 @@ def get_token_balance(rpc_url, token_address_raw, wallet_address_raw, abi_path='
     }
 
 if __name__ == '__main__':
-    rpc_url = get_rpc_url('optimism')
+    rpc_url = get_rpc_url('megaeth')
     token_address = '0x4200000000000000000000000000000000000042'
 
     with open('evm.txt', 'r') as f:
